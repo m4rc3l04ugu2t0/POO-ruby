@@ -8,5 +8,5 @@ end
 
 calc = Calc.new 
 
-result = calc.sum 5, 5, 5
-puts result
+result = calc.sum 5, 5, 5.5
+puts result # 15.5
