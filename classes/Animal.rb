@@ -1,4 +1,7 @@
+require_relative "module"
+
 class Animal
+    include Hi
    #attr_accessor :name, :bark # apenas acesso e modificação
    attr_reader :name, :bark, :race # apenas ler os atributos
    #attr_writer :namr, :bark # apenas escrita de atributo
@@ -46,4 +49,5 @@ end
 puppy = Puppy.new("kawaii")
 
 puppy.transmitted
+puppy.hi
 
